@@ -14,7 +14,7 @@ import AboutMeContent from "./AboutMeContent";
 import codersGambit from "/images/Projects/chessHome.png";
 import routinica from "/images/Projects/routinica.png";
 import noroominn from "/images/Projects/noroominn.png";
-import person_project from "/images/projects/person.png";
+import person_project from "/images/Projects/person.png";
 
 import avatar1 from "/images/Testimonials/avatar1.png";
 import avatar2 from "/images/Testimonials/avatar2.png";
