@@ -1,27 +1,27 @@
 // import images
-import Hero_person from "./assets/images/Hero/person.png";
+import Hero_person from "/images/Hero/person.png";
 
-import javaScript from "./assets/images/Skills/javaScript.png";
-import redux from "./assets/images/Skills/redux.png";
-import agile from "./assets/images/Skills/agile.png";
-import oop from "./assets/images/Skills/oop.png";
-import reactjs from "./assets/images/Skills/react.png";
-import python from "./assets/images/Skills/python.png";
+import javaScript from "/images/Skills/javaScript.png";
+import redux from "/images/Skills/redux.png";
+import agile from "/images/Skills/agile.png";
+import oop from "/images/Skills/oop.png";
+import reactjs from "/images/Skills/react.png";
+import python from "/images/Skills/python.png";
 
 import AboutMeContent from "./AboutMeContent";
 
 
-import codersGambit from "./assets/images/Projects/chessHome.png";
-import routinica from "./assets/images/Projects/routinica.png";
-import noroominn from "./assets/images/Projects/noroominn.png";
-import person_project from "./assets/images/projects/person.png";
+import codersGambit from "/images/Projects/chessHome.png";
+import routinica from "/images/Projects/routinica.png";
+import noroominn from "/images/Projects/noroominn.png";
+import person_project from "/images/projects/person.png";
 
-import avatar1 from "./assets/images/Testimonials/avatar1.png";
-import avatar2 from "./assets/images/Testimonials/avatar2.png";
-import avatar3 from "./assets/images/Testimonials/avatar3.png";
-import avatar4 from "./assets/images/Testimonials/avatar4.png";
+import avatar1 from "/images/Testimonials/avatar1.png";
+import avatar2 from "/images/Testimonials/avatar2.png";
+import avatar3 from "/images/Testimonials/avatar3.png";
+import avatar4 from "/images/Testimonials/avatar4.png";
 
-import Hireme_person from "./assets/images/Hireme/person.png";
+import Hireme_person from "/images/Hireme/person.png";
 
 
 // import icons from react-icons
