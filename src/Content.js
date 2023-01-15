@@ -10,13 +10,7 @@ import python from "./assets/images/Skills/python.png";
 
 import AboutMeContent from "./AboutMeContent";
 
-import services_logo1 from "./assets/images/Services/logo1.png";
-import services_logo2 from "./assets/images/Services/logo2.png";
-import services_logo3 from "./assets/images/Services/logo3.png";
 
-import project1 from "./assets/images/projects/img1.png";
-import project2 from "./assets/images/projects/img2.png";
-import project3 from "./assets/images/projects/img3.png";
 import codersGambit from "./assets/images/Projects/chessHome.png";
 import routinica from "./assets/images/Projects/routinica.png";
 import noroominn from "./assets/images/Projects/noroominn.png";
@@ -28,7 +22,7 @@ import avatar3 from "./assets/images/Testimonials/avatar3.png";
 import avatar4 from "./assets/images/Testimonials/avatar4.png";
 
 import Hireme_person from "./assets/images/Hireme/person.png";
-import Hireme_person2 from "./assets/images/Hireme/person2.png";
+
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
@@ -218,7 +212,6 @@ export const content = {
     title: "About Me",
     subtitle: "IN CASE YOU WERE WONDERING",
     image1: Hireme_person,
-    image2: Hireme_person2,
     para: AboutMeContent(),
 
     btnText: "Connect on LinkedIn",
