@@ -17,7 +17,9 @@ import services_logo3 from "./assets/images/Services/logo3.png";
 import project1 from "./assets/images/projects/img1.png";
 import project2 from "./assets/images/projects/img2.png";
 import project3 from "./assets/images/projects/img3.png";
-import codersGambit from "./assets/images/Projects/chessHome.png"
+import codersGambit from "./assets/images/Projects/chessHome.png";
+import routinica from "./assets/images/Projects/routinica.png";
+import noroominn from "./assets/images/Projects/noroominn.png";
 import person_project from "./assets/images/projects/person.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
@@ -31,11 +33,12 @@ import Hireme_person2 from "./assets/images/Hireme/person2.png";
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
 import { MdArrowForward, MdCall } from "react-icons/md";
-import { BsInstagram } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
 import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
 import { MdOutlinePermContactCalendar } from "react-icons/md";
+import {FaGithub} from "react-icons/fa"
 
 export const content = {
   nav: [
@@ -168,21 +171,17 @@ export const content = {
     image: person_project,
     project_content: [
       {
-        title: "Gym Website",
-        image: project1,
-      },
-      {
-        title: "Social Media web",
-        image: project2,
-      },
-      {
-        title: "Creative Website",
-        image: project3,
-      },
-      {
         title: "Coder's Gambit",
         image: codersGambit
-      }
+      },
+      {
+        title: "Routinica",
+        image: routinica,
+      },
+      {
+        title: "No Room At the Inn",
+        image: noroominn,
+      },
     ],
   },
   Testimonials: {
@@ -230,19 +229,23 @@ export const content = {
     subtitle: "GET IN TOUCH",
     social_media: [
       {
-        text: "codeaprogram@gmail.com",
+        text: "davesextonjr@gmail.com",
         icon: GrMail,
-        link: "mailto:codeaprogram@gmail.com",
+        link: "mailto:davesextonjr@gmail.com",
       },
       {
-        text: "+91 1234 56778",
-        icon: MdCall,
-        link: "https://wa.me/1234567890",
+        text: "LinkedIn",
+        icon: BsLinkedin,
+        link: "https://www.linkedin.com/in/dave-sexton-jr/",
       },
       {
-        text: "codeaprogram",
-        icon: BsInstagram,
-        link: "https://www.instagram.com/codeaprogram/",
+        text: "GitHub",
+        icon: FaGithub,
+        link: "https://github.com/davesextonjr",
+      },
+      {
+        text: "434.208.8276",
+        icon: MdCall
       },
     ],
   },
