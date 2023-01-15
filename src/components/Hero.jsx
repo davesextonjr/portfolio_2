@@ -29,17 +29,17 @@ const Hero = () => {
             </button>
             </a>
           </div>
-          <div className="flex flex-col gap-10 mt-10">
+          <div className="flex flex-row gap-2 mt-10">
             {hero.hero_content.map((content, i) => (
               <div
                 key={i}
                 data-aos="fade-down"
-                data-aos-delay={i * 300}
-                className={`flex items-center w-80 gap-5
-            ${i === 1 && " flex-row-reverse text-right"}  `}
+                className={`flex
+             `}
               >
-                <h3>{content.count}</h3>
-                <p>{content.text}</p>
+                <a href={content.link}>
+                <div>{content.text}</div>
+                </a>
               </div>
             ))}
           </div>
@@ -47,12 +47,12 @@ const Hero = () => {
 
         {/* sec col */}
         <div className="md:h-[37rem] h-96">
-          {/* <img
+          <img
             src={hero.image}
             data-aos="slide-up"
             alt="..."
             className="h-full object-cover"
-          /> */}
+          />
         </div>
       </div>
     </section>

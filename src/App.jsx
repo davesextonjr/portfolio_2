@@ -2,7 +2,7 @@
 import Hero from "./components/Hero";
 import Navbar from "./Layouts/Navbar";
 import Skills from "./components/Skills";
-import Service from "./components/Services";
+// import Service from "./components/Services";
 import Projects from "./components/Projects";
 import Testimonials from "./components/Testimonials";
 import Hireme from "./components/Hireme";
@@ -25,14 +25,14 @@ const App = () => {
       <Navbar />
       <Hero />
       <Skills />
-      <Service />
       <Projects />
+      {/* <Service /> */}
       <Testimonials />
       <Hireme />
       <Contact />
       <footer className="p-3 text-center">
-        <h6 className="mb-3">JOHN ALEX</h6>
-        <p>codeaprogram © All CopyRights Reserved 2022</p>
+        <h6 className="mb-3">DAVE SEXTON</h6>
+        <p>Much thanks to John Alex at <a href="https://www.youtube.com/@CodeAProgram" target="_blank">codeaprogram</a></p>
       </footer>
     </div>
   );

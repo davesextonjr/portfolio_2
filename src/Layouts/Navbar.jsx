@@ -18,14 +18,14 @@ const Navbar = () => {
       </div>
       <nav
         className={`fixed  z-[999] flex items-center gap-5 bg-slate-200/60 px-6 py-3 backdrop-blur-md rounded-full text-dark_primary duration-300 ${
-          showMenu ? "bottom-10" : "bottom-[-100%]"
+          showMenu ? "top-10 left-[100px]" : "bottom-[-100%]"
         }`}
       >
         {nav.map((item, i) => (
           <a
             href={item.link}
             onClick={() => setActive(i)}
-            className={`text-xl p-2.5 rounded-full sm:cursor-pointer 
+            className={`text-xl p-2.5 rounded-full sm:cursor-pointer
      ${i === active && "bg-dark_primary text-white"} `}
           >
             {createElement(item.icon)}
