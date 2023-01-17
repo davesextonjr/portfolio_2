@@ -166,15 +166,21 @@ export const content = {
     project_content: [
       {
         title: "Coder's Gambit",
-        image: codersGambit
+        image: codersGambit,
+        description: `"I'm not throwing away my shot!" Just like the protagonist in Lin-Manuel Miranda's musical Hamilton, this chess app is my attempt to demonstrate that I have the skills and determination necessary to be a meaningful part of a software development team. The goal of this app, inspired by https://lichess.org/, is to demonstrate competency in key technologies like JavaScript, React, Python, SQLAlchamy, HTML/CSS, and more. It is also a great sandbox for continued growth.`,
+        link: `https://coders-gambit.onrender.com/`
       },
       {
         title: "Routinica",
         image: routinica,
+        description: `Routinica is a website clone inspired by Habitica. Users can use Routinica to organize their life and achieve milestones to become motivated and productive by creating lists of daily tasks, habits, and to-dos. Developers, Brian, Keagan, Erin, and Dave collaborated using Slack, git, GitHub, and pair programming to impliment the site using a Flask backend after 3 weeks of studying Python.`,
+        link: `https://routinica.onrender.com/main`
       },
       {
         title: "No Room At the Inn",
         image: noroominn,
+        description: `No Room at the Inn was my first major project as a software engineering student. It is a clone of Airbnb and was a great experience utilizing both flexbox and grid in the CSS. It also took advantage of conditional rendering in react components to change what is displayed based on the user's relationship to the property or review. State was managed in three ways: Redux, React Props, and React Context.`,
+        link: `https://no-room-at-the-inn.onrender.com/`
       },
     ],
   },

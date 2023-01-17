@@ -17,6 +17,7 @@ const customStyles = {
   },
   overlay: {
     padding: "2rem",
+    width: "100%"
   },
 };
 Modal.setAppElement("#root");
