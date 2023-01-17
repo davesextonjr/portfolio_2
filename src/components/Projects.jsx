@@ -21,9 +21,11 @@ const customStyles = {
     transform: "translate(-50%, -50%)",
     maxWidth: "23rem",
     width: "90%",
+
   },
   overlay: {
     padding: "2rem",
+    zIndex: "3"
   },
 };
 Modal.setAppElement("#root");
@@ -50,16 +52,17 @@ const Projects = () => {
         onRequestClose={closeModal}
         style={customStyles}
       >
-        <div>{selectProject?.title}</div>
-        <div>{selectProject?.description}</div>
-        <a href={selectProject?.link} target="_blank">
-        <button onClick={closeModal} className='btn'>
-          Visit Site
-        </button>
-        </a>
-        <button onClick={closeModal} className='btn'>
-          Close
-        </button>
+        <div className="flex flex-col gap-5">
+
+          <div className="font-bold">{selectProject?.title}</div>
+          <div>{selectProject?.description}</div>
+          <div>{selectProject?.descriptionTwo}</div>
+          <a href={selectProject?.link} target="_blank" className="btn text-center" >Visit Site
+          </a>
+          <button onClick={closeModal} className='btn'>
+            Close
+          </button>
+        </div>
 
       </Modal>
 

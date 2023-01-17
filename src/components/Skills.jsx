@@ -14,10 +14,12 @@ const customStyles = {
     transform: "translate(-50%, -50%)",
     maxWidth: "23rem",
     width: "90%",
+
   },
   overlay: {
     padding: "2rem",
-    width: "100%"
+    width: "100%",
+    zIndex: "3"
   },
 };
 Modal.setAppElement("#root");

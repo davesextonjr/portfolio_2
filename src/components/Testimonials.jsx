@@ -1,13 +1,13 @@
 import { content } from "../Content";
+import { BsLinkedin } from "react-icons/bs";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 
 import { Pagination } from "swiper";
-import { useState } from "react";
+import { createElement, useState } from "react";
 
 const Testimonials = () => {
   const { Testimonials } = content;
@@ -50,7 +50,9 @@ const Testimonials = () => {
                 <div>
                   <p className="sm:text-base text-sm">{content.review}</p>
                   <br />
-                  <h6>{content.name}</h6>
+                  <h6 className="flex gap-2 items-center">{content.name}
+                    <a href={content.link} target="_blank">{createElement(BsLinkedin)}</a>
+                  </h6>
                 </div>
               </div>
             </SwiperSlide>

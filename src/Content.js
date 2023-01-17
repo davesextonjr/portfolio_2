@@ -20,6 +20,7 @@ import avatar1 from "/images/Testimonials/avatar1.png";
 import avatar2 from "/images/Testimonials/avatar2.png";
 import avatar3 from "/images/Testimonials/avatar3.png";
 import avatar4 from "/images/Testimonials/avatar4.png";
+import huishi from "/images/Testimonials/huishi.png"
 
 import Hireme_person from "/images/Hireme/person.png";
 
@@ -167,19 +168,25 @@ export const content = {
       {
         title: "Coder's Gambit",
         image: codersGambit,
-        description: `"I'm not throwing away my shot!" Just like the protagonist in Lin-Manuel Miranda's musical Hamilton, this chess app is my attempt to demonstrate that I have the skills and determination necessary to be a meaningful part of a software development team. The goal of this app, inspired by https://lichess.org/, is to demonstrate competency in key technologies like JavaScript, React, Python, SQLAlchamy, HTML/CSS, and more. It is also a great sandbox for continued growth.`,
+        description: `"I'm not throwing away my shot!" Just like the protagonist in Lin-Manuel Miranda's musical Hamilton, this chess app is my attempt to demonstrate that I have the skills and determination necessary to be a meaningful part of a software development team.`,
+
+        descriptionTwo: `The goal of this app, inspired by https://lichess.org/, is to demonstrate competency in key technologies like JavaScript, React, Python, SQLAlchamy, HTML/CSS, and more. It is also a great sandbox for continued growth.`,
         link: `https://coders-gambit.onrender.com/`
       },
       {
         title: "Routinica",
         image: routinica,
-        description: `Routinica is a website clone inspired by Habitica. Users can use Routinica to organize their life and achieve milestones to become motivated and productive by creating lists of daily tasks, habits, and to-dos. Developers, Brian, Keagan, Erin, and Dave collaborated using Slack, git, GitHub, and pair programming to impliment the site using a Flask backend after 3 weeks of studying Python.`,
+        description: `Routinica is a website clone inspired by Habitica. Users can use Routinica to organize their life and achieve milestones to become motivated and productive by creating lists of daily tasks, habits, and to-dos.`,
+
+        descriptionTwo: `Developers, Brian, Keagan, Erin, and Dave collaborated using Slack, git, GitHub, and pair programming to impliment the site using a Flask backend after 3 weeks of studying Python.`,
         link: `https://routinica.onrender.com/main`
       },
       {
         title: "No Room At the Inn",
         image: noroominn,
-        description: `No Room at the Inn was my first major project as a software engineering student. It is a clone of Airbnb and was a great experience utilizing both flexbox and grid in the CSS. It also took advantage of conditional rendering in react components to change what is displayed based on the user's relationship to the property or review. State was managed in three ways: Redux, React Props, and React Context.`,
+        description: `No Room at the Inn was my first major project as a software engineering student. It is a clone of Airbnb and was a great experience utilizing both flexbox and grid in the CSS.`,
+
+        descriptionTwo: `It also took advantage of conditional rendering in react components to change what is displayed based on the user's relationship to the property or review. State was managed in three ways: Redux, React Props, and React Context.`,
         link: `https://no-room-at-the-inn.onrender.com/`
       },
     ],
@@ -190,9 +197,10 @@ export const content = {
     testimonials_content: [
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        img: avatar1,
-        name: "JOHN DOE",
+          "“I have been pair programming and talking about code with many people. After I walked through code with David...I knew that he really had a passion for the app he built and he had a thorough understanding of the frameworks he used. He also motivates me to aim higher in my web development journey and in my future career!”",
+        img: huishi,
+        name: "-Huishi (Classmate)",
+        link:"https://www.linkedin.com/in/huishi-an-8397311b1/"
       },
       {
         review:
@@ -224,7 +232,7 @@ export const content = {
     btnLink: "https://www.linkedin.com/in/dave-sexton-jr/"
   },
   Contact: {
-    title: "Contect Me",
+    title: "Contact Me",
     subtitle: "GET IN TOUCH",
     social_media: [
       {
