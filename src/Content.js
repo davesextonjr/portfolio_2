@@ -204,7 +204,7 @@ export const content = {
       },
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+        `Collaborating with Dave was a great experience. He is extremely knowledgeable about react and redux, and is very agile and strategic when considering how to attack a problem or bug. His attention to database design put our group in a good place to roll out new features in an efficient way.`,
         img: avatar2,
         name: "Tom Alex",
       },
