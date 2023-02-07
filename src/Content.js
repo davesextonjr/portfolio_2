@@ -21,6 +21,8 @@ import avatar2 from "/images/Testimonials/avatar2.png";
 import avatar3 from "/images/Testimonials/avatar3.png";
 import avatar4 from "/images/Testimonials/avatar4.png";
 import huishi from "/images/Testimonials/huishi.png"
+import Matt2 from "/images/Testimonials/Matt2.png"
+import Erin from "/images/Testimonials/Erin.png"
 
 import Hireme_person from "/images/Hireme/person.png";
 
@@ -204,21 +206,17 @@ export const content = {
       },
       {
         review:
-        `Collaborating with Dave was a great experience. He is extremely knowledgeable about react and redux, and is very agile and strategic when considering how to attack a problem or bug. His attention to database design put our group in a good place to roll out new features in an efficient way.`,
-        img: avatar2,
-        name: "Tom Alex",
+          `"Dave came to training with enthusiasm every day. Whenever an instructor needed a volunteer, Dave would raise his hand. He is an active and enthusiastic contributor."`,
+        img: Matt2,
+        name: "-Matt (Classmate)",
+        link:"https://www.linkedin.com/in/matthewkleinsmith/"
       },
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        img: avatar3,
-        name: "Johnny",
-      },
-      {
-        review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        img: avatar4,
-        name: "ROBBIN",
+        `"Collaborating with Dave was a great experience. He is extremely knowledgeable about react and redux, and is very agile and strategic when considering how to attack a problem or bug. His attention to database design put our group in a good place to roll out new features in an efficient way."`,
+        img: Erin,
+        name: "-Erin (Classmate)",
+        link:"https://www.linkedin.com/in/erin-duffy-omcikus-5641004a/"
       },
     ],
   },
