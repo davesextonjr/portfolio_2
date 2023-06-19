@@ -22,11 +22,16 @@ const Hero = () => {
         <div className="pb-16 px-6 pt-5" data-aos="fade-down">
           <h2>{hero.title}</h2>
           <br />
-          <div className="flex justify-end">
+          <div className="flex justify-end gap-2 flex-col">
             <a href="#contact">
 
-            <button className="btn">{hero.btnText}
-            </button>
+              <button className="btn">{hero.btnText}
+              </button>
+            </a>
+            <a href="dave-sexton-resume.pdf" target="_blank">
+              <button className="btn">
+                My Resume
+              </button>
             </a>
           </div>
           <div className="flex flex-row gap-2 mt-10">
@@ -38,7 +43,7 @@ const Hero = () => {
              `}
               >
                 <a href={content.link}>
-                <div>{content.text}</div>
+                  <div>{content.text}</div>
                 </a>
               </div>
             ))}
