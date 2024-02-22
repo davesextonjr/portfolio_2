@@ -26,6 +26,10 @@ import Erin from "/images/Testimonials/Erin.png"
 
 import Hireme_person from "/images/Hireme/person.png";
 
+import agileLegal from "/images/Experience/agile-legal-logo.png"
+import dataAnnotation from "/images/Experience/dataannotation-logo.svg"
+import remotasks from "/images/Experience/dataannotation-logo.svg"
+
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
@@ -244,10 +248,27 @@ export const experience = {
       {
         name: "DataAnnotaion",
         para: "Contracted to test and train AI in writing code and discussing coding concepts.",
-        logo: reactjs,
+        logo: dataAnnotation,
         bulletOne: "Design code blocks utilizing JavaScript, React, and Python to test a Large Language Model's (LLM) ability to find and explain errors in a piece of code.",
         bulletTwo: "Design code blocks utilizing JavaScript, React, and Python to test an LLM’s ability to find and explain errors in a piece of code.",
         bulletThree: "Edit LLMs' responses to correct errors in logic and make them more readbale and understandable."
+      },
+      {
+        name: "Remotasks",
+        para: "Contracted to test and train AI in writing code and discussing coding concepts.",
+        logo: remotasks,
+        bulletOne: "Design code blocks utilizing JavaScript, React, and Python to test a Large Language Model's (LLM) ability to find and explain errors in a piece of code.",
+        bulletTwo: "Design code blocks utilizing JavaScript, React, and Python to test an LLM’s ability to find and explain errors in a piece of code.",
+        bulletThree: "Edit LLMs' responses to correct errors in logic and make them more readbale and understandable."
+      },
+      {
+        name: "Agile Legal",
+        para: "Contracted to provide techinal support and research.",
+        logo: agileLegal,
+        bulletOne: `Managed technical aspects of onboarding researchers - setting up credentials, VPN access, and Multifactor Authentication, enabling
+        a 50% reduction of time to onboard new researchers allowing for the project to scale at speeds that kept up with client demands.`,
+        bulletTwo: `Utilized research skills to populate a SQL database, completing Research Units in 60% of the average time.`,
+        bulletThree: `Reviewed other researchers’ work - reducing error rate below 1%.`
       },
     ]
 }

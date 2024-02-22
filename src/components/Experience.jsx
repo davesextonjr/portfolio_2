@@ -24,8 +24,8 @@ const customStyles = {
 };
 Modal.setAppElement("#root");
 
-const Skills = () => {
-  const { skills } = content;
+const Experience = () => {
+  const { experience } = content;
   const [modalIsOpen, setIsOpen] = useState(false);
   const [selectSkill, setSelectSkill] = useState(null);
 
@@ -67,14 +67,14 @@ const Skills = () => {
       {/* content */}
       <div className="md:container px-5  py-14">
         <h2 className="title" data-aos="fade-down">
-          {skills.title}
+          {experience.title}
         </h2>
         <h4 className="subtitle" data-aos="fade-down">
-          {skills.subtitle}
+          {experience.subtitle}
         </h4>
         <br />
         <div className="flex flex-wrap gap-4 justify-center">
-          {skills.skills_content.map((skill, i) => (
+          {experience.skills_content.map((experience, i) => (
             <div
               key={i}
               data-aos="fade-up"
@@ -85,22 +85,22 @@ const Skills = () => {
             >
               <div>
                 <img
-                  src={skill.logo}
+                  src={experience.logo}
                   alt="..."
                   className="w-10 group-hover:scale-125 duration-200"
                 />
               </div>
               <div>
-                <h6>{skill.name}</h6>
-                <p className="italic">{skill.para}</p>
+                <h6>{experience.name}</h6>
+                <p className="italic">{experience.para}</p>
                 <div
                   onClick={() => {
-                    setSelectSkill(skill);
+                    setSelectSkill(experience);
                     openModal();
                   }}
                   className="text-xl absolute top-3 right-3"
                 >
-                  {createElement(skills.icon)}
+                  {createElement(experience.icon)}
                 </div>
               </div>
             </div>
@@ -111,4 +111,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default Experience;
