@@ -1,6 +1,6 @@
 // import content
 import { createElement, useState } from "react";
-import { content } from "../Content";
+import { experiences } from "../Content";
 // import modal package
 import Modal from "react-modal";
 
@@ -25,7 +25,6 @@ const customStyles = {
 Modal.setAppElement("#root");
 
 const Experience = () => {
-  const { experience } = content;
   const [modalIsOpen, setIsOpen] = useState(false);
   const [selectSkill, setSelectSkill] = useState(null);
 
@@ -36,8 +35,10 @@ const Experience = () => {
   function closeModal() {
     setIsOpen(false);
   }
+console.log(experiences)
 
   return (
+
     <section className="min-h-fit bg-bg_light_primary" id="skills">
       {/* modal */}
       <Modal
@@ -67,14 +68,14 @@ const Experience = () => {
       {/* content */}
       <div className="md:container px-5  py-14">
         <h2 className="title" data-aos="fade-down">
-          {experience.title}
+          {experiences.title}
         </h2>
         <h4 className="subtitle" data-aos="fade-down">
-          {experience.subtitle}
+          {experiences.subtitle}
         </h4>
         <br />
         <div className="flex flex-wrap gap-4 justify-center">
-          {experience.skills_content.map((experience, i) => (
+          {experiences.experience_content.map((experience, i) => (
             <div
               key={i}
               data-aos="fade-up"
@@ -84,11 +85,11 @@ const Experience = () => {
                 gap-5 p-5 max-w-sm rounded-md border-2 border-slate-200"
             >
               <div>
-                <img
+                {/* <img
                   src={experience.logo}
                   alt="..."
                   className="w-10 group-hover:scale-125 duration-200"
-                />
+                /> */}
               </div>
               <div>
                 <h6>{experience.name}</h6>
@@ -100,7 +101,7 @@ const Experience = () => {
                   }}
                   className="text-xl absolute top-3 right-3"
                 >
-                  {createElement(experience.icon)}
+                  {createElement(experiences.icon)}
                 </div>
               </div>
             </div>
