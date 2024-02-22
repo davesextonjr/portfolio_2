@@ -8,6 +8,7 @@ import Testimonials from "./components/Testimonials";
 import Hireme from "./components/Hireme";
 import Contact from "./components/Contact";
 import { useEffect } from "react";
+import Experience from "./components/Experience";
 // Animation package
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -25,6 +26,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <Skills />
+      <Experience />
       <Projects />
       {/* <Service /> */}
       <Testimonials />
@@ -32,7 +34,7 @@ const App = () => {
       <Contact />
       <footer className="p-3 text-center">
         <h6 className="mb-3">DAVE SEXTON</h6>
-        <p>Much thanks to John Alex at <a href="https://www.youtube.com/@CodeAProgram" target="_blank">codeaprogram</a></p>
+        <p>Much thanks to John Alex at <a href="https://www.youtube.com/@CodeAProgram" target="_blank">codeaprogram</a> for the starter code</p>
       </footer>
     </div>
   );
