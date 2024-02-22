@@ -43,16 +43,16 @@ const Testimonials = () => {
               <div
                 className={` duration-500 bg-bg_light_primary mx-8 border-2
               p-8 h-full rounded-2xl flex items-center gap-6
-               border-slate-200 md:flex-row flex-col
+             md:flex-row flex-col
                 ${activeIndex !== i && "scale-75 blur-sm"}`}
               >
-                <img src={content.img} alt="..." className="h-24" />
-                <div>
+                <img src={content.img} alt="Reviewer Headshot" className="h-24" />
+                <div className="flex flex-col whitespace-pre-wrap overflow-scroll scroll-mt-[var(--scroll-mt)]">
                   <p className="sm:text-base text-sm">{content.review}</p>
                   <br />
-                  <h6 className="flex gap-2 items-center">{content.name}
+                  <div className="flex gap-2 items-center">{content.name}
                     <a href={content.link} target="_blank">{createElement(BsLinkedin)}</a>
-                  </h6>
+                  </div>
                 </div>
               </div>
             </SwiperSlide>
